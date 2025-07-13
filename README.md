@@ -25,3 +25,23 @@ Whether you're a cybersecurity student, SOC analyst, or automation enthusiast, t
 - **Slack** for real-time alert notifications and SOC collaboration.  
 - **Email (SMTP)** for sending automated incident alerts.  
 
+
+This project demonstrates how to build a mini SOAR system using **LimaCharlie** for detection and **Tines** for response automation. It includes real-world scenarios like detecting LaZagne execution, forwarding detections to Slack/Email, prompting analysts, and isolating endpoints.
+
+---
+
+## 📚 Table of Contents
+
+| Part | Title | Description |
+|------|-------|-------------|
+| [Part 1](./part-one-playbook.md) | 🧩 Playbook Design | Visual workflow created using draw.io — sends Slack/Email alerts and prompts analysts. |
+| [Part 2](./part-two-agent-installation.md) | 💻 Agent Setup | Installing LimaCharlie agent and verifying endpoint telemetry. |
+| [Part 3](#%f0%9f%9b%a1%ef%b8%8f-detection-rule-mydfir---hacktool---lazagne) | 🛡️ LaZagne Detection Rule | Create and explain detection logic for credential dumping using LaZagne. |
+| [Part 4](./part-four-slack-tines-integration.md) | 📡 Slack & Tines Integration | Connect LimaCharlie → Tines → Slack/Email to automate detection alerts. |
+| [Part 5](#-%f0%9f%9b%a1%ef%b8%8f-part-five-isolation-workflow-testing) | 🚨 Isolation Testing | Test automated host isolation based on analyst decisions via Tines. |
+
+---
+
+For screenshots, refer to the `/screenshots` folder. Each Markdown part contains inline `<img>` tags with descriptions.
+
+Let’s defend smart — automate everything. ⚙️🛡️
