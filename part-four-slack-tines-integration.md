@@ -74,3 +74,9 @@ To verify everything is working correctly, follow these steps:
 
 Malicious Activity Detected → LimaCharlie Rule Fires → Tines Webhook Triggered → Slack & Email Alerts Sent → Analyst Prompted → (Optional) Host Isolated
 
+## 🔜 Next Step
+
+Proceed to [**Part Five: Isolation Workflow Testing**](./part-five-isolation-testing.md) to simulate the complete SOAR response cycle:
+
+
+This final part ensures your playbook not only detects threats but also responds to them automatically, reducing response time and analyst fatigue.
