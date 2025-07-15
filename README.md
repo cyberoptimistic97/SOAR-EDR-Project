@@ -32,15 +32,17 @@ This project demonstrates how to build a mini SOAR system using **LimaCharlie** 
 
 
 
+
 ## 📚 Table of Contents
 
 | Part | Title | Description |
 |------|-------|-------------|
 | [Part 1](./part-one-playbook.md) | 🧩 Playbook Design | Visual workflow created using draw.io — sends Slack/Email alerts and prompts analysts. |
 | [Part 2](./part-two-edr-setup.md) | 💻 Agent Setup | Installing LimaCharlie agent and verifying endpoint telemetry. |
-| [Part 3](./detection-lazagne.md) | 🛡️ LaZagne Detection Rule | Create and explain detection logic for credential dumping using LaZagne. |
+| [Part 3](./part-three-detection-lazagne.md) | 🛡️ LaZagne Detection Rule | Create and explain detection logic for credential dumping using LaZagne. |
 | [Part 4](./part-four-slack-tines-integration.md) | 📡 Slack & Tines Integration | Connect LimaCharlie → Tines → Slack/Email to automate detection alerts. |
 | [Part 5](./part-five-isolation-testing.md) | 🚨 Isolation Testing | Test automated host isolation based on analyst decisions via Tines. |
+
 
 ---
 
