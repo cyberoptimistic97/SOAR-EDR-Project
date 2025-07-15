@@ -99,12 +99,18 @@ These actions should generate logs like `NEW_PROCESS` or `DNS_REQUEST`, visible 
 ![Agent Installation](./screenshots/agent-install.png)  
 This screenshot shows the process of installing the LimaCharlie agent via PowerShell with administrative privileges.
 
+![Agent Installation - Alternate](./screenshots/agent-install%20(2).png)  
+Alternate view of the installation process captured from a different system instance.
+
 ---
 
 ### 🖼️ 2. Endpoint Appears in LimaCharlie Dashboard
 
 ![Endpoint Online](./screenshots/lc-endpoint-online.png)  
 Here, the Windows endpoint successfully appears as "Online" in the LimaCharlie console under the **Sensors** tab.
+
+![Endpoint Online - Alternate](./screenshots/lc-endpoint-online2.png)  
+Alternate view showing the endpoint's online status with more detailed sensor metadata.
 
 ---
 
