@@ -91,3 +91,25 @@ To make sure the agent is sending logs:
 - Run common system commands
 
 These actions should generate logs like `NEW_PROCESS` or `DNS_REQUEST`, visible in the **Events**, **Timeline**, or **Artifacts** section of the LimaCharlie dashboard.
+
+## 🔹 📂 Part Two: Agent Setup & Detection Rule
+
+### 🖼️ 1. PowerShell Installation of LimaCharlie Agent
+
+![Agent Installation](./screenshots/agent-install.png)  
+This screenshot shows the process of installing the LimaCharlie agent via PowerShell with administrative privileges.
+
+---
+
+### 🖼️ 2. Endpoint Appears in LimaCharlie Dashboard
+
+![Endpoint Online](./screenshots/lc-endpoint-online.png)  
+Here, the Windows endpoint successfully appears as "Online" in the LimaCharlie console under the **Sensors** tab.
+
+---
+
+### 🖼️ 3. Event Logs in LimaCharlie (NEW_PROCESS, DNS_REQUEST)
+
+![Event Logs](./screenshots/lc-event-logs.png)  
+After running test activities, LimaCharlie begins logging system events like `NEW_PROCESS` and `DNS_REQUEST`, confirming that the agent is active.
+
